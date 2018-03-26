@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  float: left;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 1);
+  padding: 0;
+}
+
+h2 {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 1);
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 65px 0 65px 400px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.3em;
+}
+
+nav a:hover {
+  color: rgba(255, 255, 255, 1);
+  font-style: italic;
+}
+
+#portfolio {
+  margin-top: 5px;
+  width: 100%;
+}
+
+div #description {
+  background-color: rgba(255, 255, 255, 1);
+  width: 40%;
+  height: 750px;
+  float: left;
+}
+
+p {
+  color: rgba(0, 0, 0, 1);
+  text-align: justify;
+  margin: 0;
+  padding: 0px 50px 0px 50px;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+  columns: 1;
+}
+
+div #gallery {
+  background-color: rgba(255, 255, 255, 1);
+  width: 60%;
+  height: 750px;
+  position: relative;
+  float: right;
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+  -ms-flex: 50%;
+  max-width: 50%;
+  padding: 0 5px;
+}
+
+#gallery img {
+  margin-bottom: 2px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  -moz-transition: all .8s;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+#gallery img:hover {
+  opacity: .2;
+  overflow: hidden;
+}
