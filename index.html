@@ -1,192 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="???">
-    <meta name="keywords" content="???">
-    <meta name="author" content="???">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swallow's Wings</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
-    <script type="text/javascript" src="script.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="???">
+  <meta name="keywords" content="???">
+  <meta name="author" content="???">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swallow's Wings</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
 
-  <body>
-    <header>
-      <div id="header-section">
-        <h1 id="title">Swallow's<br> Wings</h1>
+<body>
+  <header>
+    <div id="header-section">
+      <h1 id="title">Swallow's<br> Wings</h1>
 
-        <nav class="navbar fixed-top float-right">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About My Work</a></li>
-            <li><a href="#">What's On</a></li>
-            <li><a href="#">Previous Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
-          </ul>
-        </nav>
+      <nav class="navbar fixed-top float-right">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About My Work</a></li>
+          <li><a href="#">What's On</a></li>
+          <li><a href="#">Previous Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- MAIN PAGE SECTION -->
+
+  <div id="portfolio">
+    <div id="description">
+      <div id="description-text"
+        <h2>Swallow's Wings by Caroline Ada</h2>
+
+        <blockquote>
+          <p>"True hope is swift, and flies with swallow's wings"</p>
+
+          <footer>William Shakespeare</footer>
+        </blockquote>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur ullamcorper massa in vulputate. Nulla fringilla pulvinar varius. In sed tellus erat. Maecenas nec vulputate ante. Sed bibendum nunc sed mauris fringilla, a ornare velit ullamcorper. Ut pellentesque condimentum pharetra. Etiam commodo, ipsum nec molestie viverra, felis sem tempor neque, vitae aliquet quam orci eu ligula. Ut ut ultricies felis. Nullam non lorem rhoncus, rhoncus lectus at, feugiat justo. Proin leo tellus, porta eu scelerisque non, dictum eu erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras consequat efficitur sapien, sit amet tristique purus. Mauris varius sollicitudin ex eu imperdiet. Duis ac pulvinar nunc.</p>
+
+        <p>email@email.com</p>
+        <p>0700 000 000</p>
+
+        <a href="#" id="arrow"><span class="glyphicon glyphicon-menu-down btn-group-justified" aria-hidden="true"></span></a>
       </div>
-    </header>
+    </div>
 
-    <div id="portfolio">
-      <div id="description">
-        <div id="description-text"
-          <h2>Swallow's Wings by Caroline Ada</h2>
+    <div id="gallery">
+      <div class="column">
+        <div id="image-container" onclick="openNav()">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">No. 30 Bingo Bertie</h3>
 
-          <!--<img src="media/images/five.jpg" class="img-responsive img-circle" alt="Responsive image">-->
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
 
-          <blockquote>
-            <p>"True hope is swift, and flies with swallow's wings"</p>
-            <footer>William Shakespeare</footer>
-          </blockquote>
+          <img src="media/images/four.jpg" class="img-responsive">
+        </div>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur ullamcorper massa in vulputate. Nulla fringilla pulvinar varius. In sed tellus erat. Maecenas nec vulputate ante. Sed bibendum nunc sed mauris fringilla, a ornare velit ullamcorper. Ut pellentesque condimentum pharetra. Etiam commodo, ipsum nec molestie viverra, felis sem tempor neque, vitae aliquet quam orci eu ligula. Ut ut ultricies felis. Nullam non lorem rhoncus, rhoncus lectus at, feugiat justo. Proin leo tellus, porta eu scelerisque non, dictum eu erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras consequat efficitur sapien, sit amet tristique purus. Mauris varius sollicitudin ex eu imperdiet. Duis ac pulvinar nunc.</p>
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
 
-          <p>email@email.com</p>
-          <p>0700 000 000</p>
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
 
-          <a href="#" id="arrow"><span class="glyphicon glyphicon-menu-down btn-group-justified" aria-hidden="true"></span></a>
+          <a href="#"><img src="media/images/nine.jpg"></a>
+        </div>
+
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
+
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
+
+          <a href="#"><img src="media/images/one.jpg"></a>
+        </div>
+
+
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
+
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
+
+          <a href="#"><img src="media/images/nine.jpg"></a>
+        </div>
+
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
+
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
+
+          <a href="#"><img src="media/images/one.jpg"></a>
+        </div>
+
+
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
+
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
+
+          <a href="#"><img src="media/images/nine.jpg"></a>
         </div>
       </div>
 
-      <div id="gallery">
-        <div class="column">
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">No. 30 Bingo Bertie</h3>
+      <div class="column">
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">Me and my Bird</h3>
 
-                <div class="overlay-sheet"></div>
-              </div>
-            </a>
-            <img src="media/images/four.jpg" class="img-responsive">
-          </div>
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
 
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
-
-                <div class="overlay-sheet"></div>
-              </div>
-            <a href="#"><img src="media/images/nine.jpg"></a>
-          </div>
-
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
-
-                <div class="overlay-sheet"></div>
-              </div>
-            </a>
-            <a href="#"><img src="media/images/one.jpg"></a>
-          </div>
-
-
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
-
-                <div class="overlay-sheet"></div>
-              </div>
-            <a href="#"><img src="media/images/nine.jpg"></a>
-          </div>
-
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
-
-                <div class="overlay-sheet"></div>
-              </div>
-            </a>
-            <a href="#"><img src="media/images/one.jpg"></a>
-          </div>
-
-
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
-
-                <div class="overlay-sheet"></div>
-              </div>
-            <a href="#"><img src="media/images/nine.jpg"></a>
-          </div>
+          <a href="#"><img src="media/images/nine.jpg"></a>
         </div>
 
-        <div class="column">
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">Me and my Bird</h3>
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
 
-                <div class="overlay-sheet"></div>
-              </div>
-            </a>
-            <a href="#"><img src="media/images/nine.jpg"></a>
-          </div>
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
 
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
+          <a href="#"><img src="media/images/one.jpg"></a>
+        </div>
 
-                <div class="overlay-sheet"></div>
-              </div>
-            </a>
-            <a href="#"><img src="media/images/one.jpg"></a>
-          </div>
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
 
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
 
-                <div class="overlay-sheet"></div>
-              </div>
-            <a href="#"><img src="media/images/nine.jpg"></a>
-          </div>
+          <a href="#"><img src="media/images/nine.jpg"></a>
+        </div>
 
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
 
-                <div class="overlay-sheet"></div>
-              </div>
-            </a>
-            <a href="#"><img src="media/images/one.jpg"></a>
-          </div>
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
 
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
+          <a href="#"><img src="media/images/one.jpg"></a>
+        </div>
 
-                <div class="overlay-sheet"></div>
-              </div>
-            <a href="#"><img src="media/images/nine.jpg"></a>
-          </div>
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
 
-          <div id="image-container">
-            <a href="#" role="button">
-              <div class="overlay">
-                <h3 class="overlay-text">???</h3>
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
 
-                <div class="overlay-sheet"></div>
-              </div>
-            </a>
-            <a href="#"><img src="media/images/one.jpg"></a>
-          </div>
+          <a href="#"><img src="media/images/nine.jpg"></a>
+        </div>
+
+        <div id="image-container">
+          <a href="#" role="button">
+            <div class="overlay">
+              <h3 class="overlay-text">???</h3>
+
+              <div class="overlay-sheet"></div>
+            </div>
+          </a>
+
+          <a href="#"><img src="media/images/one.jpg"></a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+
+<!-- ABOUT MY WORK -->
+
+<!-- WHAT'S ON -->
+
+<!-- PREVIOUS PROJECTS -->
+    <div id="previous-projects">
+      <div class="archive-gallery">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+
+        </div>
+      </div>
+    </div>
+
+<!-- CONTACT ME -->
+
+</body>
