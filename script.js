@@ -16,5 +16,5 @@ function openOne() {
 }
 
 function closeOne() {
-    document.getElementById("projectone").style.width = "0";
+    document.getElementById("projectone").style.width = "0%";
 }

@@ -173,26 +173,6 @@ div #gallery {
   transition: all .8s;
 }
 
-/* ABOUT MY WORK */
-
-/* WHAT'S ON */
-
-/* PREVIOUS PROJECTS */
-
-#projectone {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 5;
-  top: 0;
-  right: 0;
-  background-color: white;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
-}
-
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -213,6 +193,28 @@ div #gallery {
   font-size: 36px;
   margin-left: 50px;
 }
+
+/* ABOUT MY WORK */
+
+/* WHAT'S ON */
+
+/* PREVIOUS PROJECTS */
+
+#projectone {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size)
 @media screen and (max-height: 450px) {
