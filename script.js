@@ -1,11 +1,20 @@
 $('#myModal').modal(options)
 
-/* Set the width of the side navigation to 250px */
+/* Side Nav */
 function openNav() {
     document.getElementById("mySidenav").style.width = "50%";
 }
 
-/* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+}
+
+/* Project One */
+
+function openOne() {
+    document.getElementById("projectone").style.width = "50%";
+}
+
+function closeOne() {
+    document.getElementById("projectone").style.width = "0";
 }
