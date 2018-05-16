@@ -4,9 +4,11 @@
 
 body {
   font-family: helvetica;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(247, 242, 239, 1);
   padding: 0;
   margin: 0;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 /*div {
@@ -14,15 +16,15 @@ body {
 }*/
 
 header {
-  border-bottom: lightgrey 1px solid !important;
   bottom: 0;
+  background-color: pink;
 }
 
 #title {
   padding: 10px;
   margin: 0 !important;
   font-size: 4em;
-  color: rgba(247, 103, 20, 1);
+  color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   bottom: 0;
   float: left;
@@ -41,7 +43,7 @@ nav ul {
 }
 
 nav a {
-  color: rgba(247, 103, 20, 1);
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
   font-family: 'Noto Serif', serif;
   font-size: 1.3em;
@@ -49,8 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgba(247, 103, 20, 1);
-  font-style: italic;
+  color: cyan;
   background-color: transparent !important;
 }
 
@@ -62,7 +63,7 @@ div #description {
   width: 50%;
   float: left;
   padding: 100px;
-  overflow: scroll;
+  overflow: hidden;
   height: 800px;
 }
 
@@ -70,10 +71,14 @@ h2 {
   font-size: 1em;
   color: rgba(0, 0, 0, 1);
   margin: 0 !important;
+  text-transform: uppercase;
 }
 
 #description img {
-  height: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
 blockquote {
@@ -93,7 +98,7 @@ div #gallery {
   background-color: rgba(255, 255, 255, 1);
   width: 50%;
   height: 100%;
-  height: 800px;
+  height: 1100px;
   position: relative;
   float: right;
   display: flex;
@@ -110,36 +115,17 @@ div #gallery {
   padding: 0 .5px;
 }
 
-#gallery img {
-  padding-bottom: 1px;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  -moz-transition: all .8s;
-  -webkit-transition: all .8s;
-  transition: all .8s;
-}
-
-#gallery img:hover {
-  opacity: .2;
-  overflow: hidden;
-}
-
-
-
-
-
 #image-container {
   padding: 0;
-  overflow: hidden;
-  width: 100%;
   padding-bottom: 1px;
   position: relative;
-  width: 100%;
-  max-width: 100%;
   -moz-transition: all .8s;
   -webkit-transition: all .8s;
   transition: all .8s;
+}
+
+#image-container img {
+  max-width: 100%;
 }
 
 #image-container:hover .overlay-text {
@@ -147,7 +133,7 @@ div #gallery {
 }
 
 #image-container:hover .overlay-sheet {
-  opacity: .5;
+  opacity: .7;
 }
 
 .overlay {
@@ -176,7 +162,7 @@ div #gallery {
   opacity: 0;
   position: absolute;
   z-index: 1;
-  background-color: pink;
+  background-color: black;
   top: 0;
   bottom: 0;
   left: 0;
