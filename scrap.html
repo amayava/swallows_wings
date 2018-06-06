@@ -1,37 +1,182 @@
-bootstrap = framework.
-readymade css and javascript files (cross browser).
-
-
-function openNav() {
-    document.getElementById("info-window").style.width = "500px";
-    document.getElementById("main").style.marginLeft = "500px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+header {
+  bottom: 0;
+  background-color: rgba(251, 199, 62, 1);
 }
 
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-function closeNav() {
-    document.getElementById("info-window").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-    document.body.style.backgroundColor = "white";
+#title {
+  padding: 10px;
+  margin: 0 !important;
+  font-size: 4em;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  bottom: 0;
+  float: left;
 }
 
-
-function openNav() {
-    document.getElementById("info-window").style.width = "500px";
+nav {
+  width: 100%;
+  margin: 0 !important;
 }
 
-function closeNav() {
-    document.getElementById("info-window").style.width = "0";
+nav ul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  list-style-type: none;
 }
 
-
-
-
-
-function openNav() {
-    document.getElementById("info-window").style.width = "500px";
+nav a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
 }
 
-function closeNav() {
-    document.getElementById("info-window").style.width = "0";
+------------
+
+
+body {
+  font-family: helvetica;
+  padding: 0;
+  margin: 0;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+/*div {
+  border: black solid 1px;
+}*/
+
+header {
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid black;
+}
+
+#title {
+  padding: 10px;
+  margin: 0 !important;
+  font-size: 4em;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  bottom: 0;
+  float: left;
+}
+
+nav {
+  width: 100%;
+  margin: 0 !important;
+}
+
+nav ul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  list-style-type: none;
+}
+
+nav a {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: black;
+  background-color: transparent !important;
+}
+
+.left-wrap {
+  height: 800px;
+}
+
+div #description {
+  width: 50%;
+  float: left;
+  padding: 100px;
+  height: auto;
+}
+
+h2 {
+  font-size: 1em;
+  margin: 0 !important;
+  text-transform: uppercase;
+}
+
+#description img {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+blockquote {
+  margin: 20px 40px !important;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+  text-align: justify;
+  margin: 0;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+  columns: 1;
+}
+
+a span {
+  font-size: 6em;
+  color: rgba(251, 199, 62, 1);
+}
+
+div #newscarousel {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+
+.carousel-caption {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 50px;
+}
+
+.carousel-caption p {
+  font-family: 'Noto Sans', sans-serif ;
+  color: rgba(255, 255, 255, 1) !important;
+  text-shadow: none !important;
+}
+
+.carousel span {
+  color: white;
+  text-shadow: none;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image:none !important;
+  filter:none !important;
+}
+
+.carousel-indicators li {
+  border-radius: 0 !important;
+  width: 40px !important;
+  height: 5px !important;
+  border: none;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.carousel-indicators .active {
+  border-radius: 0 !important;
+  border: none;
+  width: 40px !important;
+  height: 5px !important;
+  background-color: rgba(255, 255, 255, .6) !important;
 }
